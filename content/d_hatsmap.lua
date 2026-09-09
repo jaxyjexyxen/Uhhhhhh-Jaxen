@@ -397,6 +397,12 @@ local HatKnownAccessoriesDatabase = {
 	},
 
 	-- Guns
+	{ -- Black Sci-Fi Sniper Blaster
+	MeshId = "95071826318758", TextureId = "74764166502246",
+	C0 = CFrame.new(-0.172, -0.001, -0.156) * CFrame.Angles(0, math.rad(90), 0),
+	C1 = CFrame.new(0, 0, 0),
+	Limb = "Torso", Group = "Gun",
+},
 	{ -- 4623059912
 		MeshId = "4615369575", TextureId = "",
 		C0 = CFrame.new(-1.2, -0.5, -0.8, 1, 0, 0, 0, -0.342020363, -0.939692557, 0, 0.939692557, -0.342020363),
