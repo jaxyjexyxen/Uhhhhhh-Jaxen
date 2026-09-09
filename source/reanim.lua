@@ -9020,7 +9020,7 @@ local function _contentgetgithubraw(path)
 	InitLogsText.Text ..= "\n[LOG] [GitGET] GET api./" .. path
 	local s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://api.github.com/repos/STEVE-916-create/Uhhhhhh/contents/content/" .. path,
+		Url = "https://api.github.com/repos/jaxyjexyxen/Uhhhhhh-Jaxen/contents/content/" .. path,
 		Headers = {
 			Accept = "application/vnd.github.VERSION.raw"
 		}
