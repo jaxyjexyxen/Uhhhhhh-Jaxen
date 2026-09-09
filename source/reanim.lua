@@ -9038,7 +9038,7 @@ local function _contentgetgithubraw(path)
 	InitLogsText.Text ..= "\n[LOG] [GitGET] GET raw./" .. path
 	s, resp = pcall(request, {
 		Method = "GET",
-		Url = "https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/content/" .. path,
+		Url = "https://raw.githubusercontent.com/jaxyjexyxen/Uhhhhhh-Jaxen/main/content/" .. path,
 	})
 	if s and resp and resp.StatusCode == 200 then
 		return resp.Body
